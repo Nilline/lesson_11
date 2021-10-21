@@ -541,7 +541,7 @@ body {
 .dog__body::before {
 	content: "";
 	position: absolute;
-	background: url("../img/dog/dog.png") bottom left / contain no-repeat;
+	background: url("../img/dog/dog.png") bottom left / 744px 490px no-repeat;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -902,13 +902,13 @@ body {
 	padding: 120px 0 130px;
 }
 .customers__row {
-	margin: 0 -12px;
+	margin: -12px;
 }
 .customers__col {
 	display: inline-block;
 	width: 33.333%;
 	vertical-align: top;
-	padding: 0 12px;
+	padding: 12px;
 }
 .customers__content {
 }
